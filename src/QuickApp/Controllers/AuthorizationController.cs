@@ -118,7 +118,10 @@ namespace QuickApp.Controllers
                 // Create a new authentication ticket.
                 var ticket = await CreateTicketAsync(request, user);
 
-                return SignIn(ticket.Principal, ticket.Properties, ticket.AuthenticationScheme);
+                var signResult  = SignIn(ticket.Principal, ticket.Properties, ticket.AuthenticationScheme);
+
+                return signResult;
+
             }
             else if (request.IsRefreshTokenGrantType())
             {
