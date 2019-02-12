@@ -35,7 +35,7 @@ export class AppComponent implements OnInit, OnDestroy, AfterViewInit {
   shouldShowLoginModal: boolean;
   removePrebootScreen: boolean;
   newNotificationCount = 0;
-  appTitle = 'Quick Application';
+  appTitle = 'Bakstoreteam Application';
   appLogo = require('../assets/images/logo-white.png');
 
   stickyToasties: number[] = [];

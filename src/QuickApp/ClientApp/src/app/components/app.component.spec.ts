@@ -78,10 +78,10 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'Quick Application'`, () => {
+  it(`should have as title 'Bakstoreteam Application'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = <AppComponent>fixture.debugElement.componentInstance;
-    expect(app.appTitle).toEqual('Quick Application');
+    expect(app.appTitle).toEqual('Bakstoreteam Application');
   });
 
   it('should render Loaded! in a h1 tag', () => {
