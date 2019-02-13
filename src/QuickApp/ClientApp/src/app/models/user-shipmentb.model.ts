@@ -6,7 +6,8 @@
 import { User } from './user.model';
 
 
-export class UserEdit extends User {
+export class UserShipmentb  extends User {
+
     constructor(currentPassword?: string, newPassword?: string, confirmPassword?: string) {
         super();
 
@@ -18,5 +19,12 @@ export class UserEdit extends User {
     public currentPassword: string;
     public newPassword: string;
     public confirmPassword: string;
+
+    //TODODO: replace constructor parameters with this values:
+
+    //public orderId: number;
+    //public productLink: string;
+    //public brandName: string;
+    //public buyerAdress: string;
 
 }

@@ -10,6 +10,7 @@
     "Products": "المنتجات",
     "Orders": "الأوامر",
     "About": "حول منجز التطبيق",
+    "Shipments": "Shipments",
     "Logout": "الخروج"
   },
   "pageHeader": {
@@ -19,6 +20,7 @@
     "Orders": "الأوامر",
     "NotFound": "لا يوجد",
     "About": "حول منجز التطبيق",
+    "Shipments": "Shipments",
     "Settings": "إعدادات"
   },
   "home": {
@@ -31,6 +33,7 @@
     "pageNotFound": "الصفحة التي تبحث عنها غير موجودة",
     "backToHome": "العودة إلى لوحة الإستقبال"
   },
+  "shipments": {    "tab": {      "Profile": "Profile",      "Preferences": "Preferences",      "Users": "Users",      "Roles": "Roles"    },    "header": {      "UserProfile": "User Profile",      "UserPreferences": "User Preferences",      "UserDepartments": "User Departments",      "UsersManagements": "Users Managements",      "RolesManagement": "Roles Management"    }  },
   "settings": {
     "tab": {
       "Profile": "الملف الشخصي",

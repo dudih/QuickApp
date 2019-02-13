@@ -61,6 +61,8 @@ export class UsersManagementComponent implements OnInit, AfterViewInit {
 
     const gT = (key: string) => this.translationService.getTranslation(key);
 
+    //TODODO: Change to new properties values based on (dummy)  user-shipmentb.model.ts. 'name' holds table title.
+
     this.columns = [
       { prop: 'index', name: '#', width: 40, cellTemplate: this.indexTemplate, canAutoResize: false },
       { prop: 'jobTitle', name: gT('users.management.Title'), width: 50 },
@@ -148,6 +150,9 @@ export class UsersManagementComponent implements OnInit, AfterViewInit {
 
 
   onDataLoadSuccessful(users: User[], roles: Role[]) {
+
+    //TODODO: Use here UserShipmentb (dummy) instead of User.
+
     this.alertService.stopLoadingMessage();
     this.loadingIndicator = false;
 

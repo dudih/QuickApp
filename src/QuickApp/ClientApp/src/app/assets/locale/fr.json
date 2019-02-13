@@ -10,6 +10,7 @@
     "Products": "Les produits",
     "Orders": "Les ordres",
     "About": "À Propos",
+    "Shipments": "Shipments",
     "Logout": "Se Déconnecter"
   },
   "pageHeader": {
@@ -19,6 +20,7 @@
     "Orders": "Les ordres",
     "NotFound": "Pas trouvé",
     "About": "À Propos",
+    "Shipments": "Shipments",
     "Settings": "Paramètres"
   },
   "home": {
@@ -31,6 +33,7 @@
     "pageNotFound": "La page que vous recherchez n'existe pas",
     "backToHome": "De retour à la page d'accueil"
   },
+  "shipments": {    "tab": {      "Profile": "Profile",      "Preferences": "Preferences",      "Users": "Users",      "Roles": "Roles"    },    "header": {      "UserProfile": "User Profile",      "UserPreferences": "User Preferences",      "UserDepartments": "User Departments",      "UsersManagements": "Users Managements",      "RolesManagement": "Roles Management"    }  },
   "settings": {
     "tab": {
       "Profile": "Profil",

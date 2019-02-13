@@ -10,6 +10,7 @@
     "Products": "제작품",
     "Orders": "명령",
     "About": "약",
+    "Shipments": "Shipments",
     "Logout": "로그 아웃"
   },
   "pageHeader": {
@@ -19,6 +20,7 @@
     "Orders": "명령",
     "NotFound": "발견되지 않음",
     "About": "약",
+    "Shipments": "Shipments",
     "Settings": "설정"
   },
   "home": {
@@ -31,6 +33,7 @@
     "pageNotFound": "찾고있는 페이지가 존재하지 않습니다.",
     "backToHome": "홈으로"
   },
+  "shipments": {    "tab": {      "Profile": "Profile",      "Preferences": "Preferences",      "Users": "Users",      "Roles": "Roles"    },    "header": {      "UserProfile": "User Profile",      "UserPreferences": "User Preferences",      "UserDepartments": "User Departments",      "UsersManagements": "Users Managements",      "RolesManagement": "Roles Management"    }  },
   "settings": {
     "tab": {
       "Profile": "윤곽",

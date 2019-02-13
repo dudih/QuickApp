@@ -38,3 +38,4 @@ export class User {
   public isLockedOut: boolean;
   public roles: string[];
 }
+
