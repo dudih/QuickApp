@@ -1,4 +1,24 @@
 
+
+@media (min-width: 1800px){
+  .container {
+    width: 1770px;
+  }
+}
+@media (min-width: 1600px){
+  .container {
+    width: 1570px;
+    border: 1px solid red;
+  }
+}
+
+/*for QA only:*/
+#app_container .dudi71 {
+  border: 1px solid red;
+}
+
+
+
 #mainContent.app-component {
     position: relative;
     padding-top: 50px;

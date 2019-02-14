@@ -65,18 +65,18 @@ export class ShipmentsManagementComponent implements OnInit, AfterViewInit {
     //TODODO: Change to new properties values based on (dummy)  shipment.model.ts. 'name' holds table title.
 
     this.columns = [
-      { prop: 'index', name: '#', width: 40, cellTemplate: this.indexTemplate, canAutoResize: false },
-      { prop: 'jobTitle', name: gT('users.management.Title'), width: 50 },
-      { prop: 'userName', name: gT('users.management.UserName'), width: 90, cellTemplate: this.userNameTemplate },
-      { prop: 'fullName', name: gT('users.management.FullName'), width: 120 },
-      { prop: 'email', name: gT('users.management.Email'), width: 140 },
-      { prop: 'roles', name: gT('users.management.Roles'), width: 120, cellTemplate: this.rolesTemplate },
-      { prop: 'phoneNumber', name: gT('users.management.PhoneNumber'), width: 100 }
+      { prop: 'index', name: '#', flexGrow: 1, cellTemplate: this.indexTemplate, canAutoResize: true, headerClass: 'dudi71' },
+      { prop: 'jobTitle', name: gT('users.management.Title'), flexGrow: 2, canAutoResize: true, headerClass: 'dudi71' },
+      { prop: 'userName', name: gT('users.management.UserName'), flexGrow: 2, cellTemplate: this.userNameTemplate, canAutoResize: true, headerClass: 'dudi71' },
+      { prop: 'fullName', name: gT('users.management.FullName'), flexGrow: 2, canAutoResize: true, headerClass: 'dudi71' },
+      { prop: 'email', name: gT('users.management.Email'), flexGrow: 4, canAutoResize: true, headerClass: 'dudi71' },
+      { prop: 'roles', name: gT('users.management.Roles'), flexGrow: 4, cellTemplate: this.rolesTemplate, canAutoResize: true, headerClass: 'dudi71' },
+      { prop: 'phoneNumber', name: gT('users.management.PhoneNumber'), flexGrow: 4, canAutoResize: true, headerClass: 'dudi71' }
     ];
 
     if (this.canManageUsers)
       this.columns.push({
-        name: '', width: 130, cellTemplate: this.actionsTemplate, resizeable: false, canAutoResize: false,
+        name: '', flexGrow: 2, cellTemplate: this.actionsTemplate, resizeable: true, canAutoResize: true, headerClass: 'dudi71',
         sortable: false, draggable: false
       });
 
