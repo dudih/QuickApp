@@ -63,6 +63,7 @@ import { UserPreferencesComponent } from './components/controls/user-preferences
 import { UsersManagementComponent } from './components/controls/users-management.component';
 import { RolesManagementComponent } from './components/controls/roles-management.component';
 import { RoleEditorComponent } from './components/controls/role-editor.component';
+import { ShipmentsManagementComponent } from './components/shipments/shipments-management/shipments-management.component';
 
 
 
@@ -97,6 +98,7 @@ import { RoleEditorComponent } from './components/controls/role-editor.component
     ProductsComponent,
     OrdersComponent,
     ShipmentsComponent,
+    ShipmentsManagementComponent,
     SettingsComponent,
     UsersManagementComponent, UserInfoComponent, UserPreferencesComponent,
     RolesManagementComponent, RoleEditorComponent,

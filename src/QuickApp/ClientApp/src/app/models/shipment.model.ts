@@ -6,7 +6,7 @@
 import { User } from './user.model';
 
 
-export class UserShipmentb  extends User {
+export class Shipment  extends User {
 
     constructor(currentPassword?: string, newPassword?: string, confirmPassword?: string) {
         super();
@@ -26,5 +26,8 @@ export class UserShipmentb  extends User {
     //public productLink: string;
     //public brandName: string;
     //public buyerAdress: string;
+
+
+
 
 }

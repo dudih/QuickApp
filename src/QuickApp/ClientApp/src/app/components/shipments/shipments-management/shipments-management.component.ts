@@ -6,23 +6,24 @@
 import { Component, OnInit, AfterViewInit, TemplateRef, ViewChild, Input } from '@angular/core';
 import { ModalDirective } from 'ngx-bootstrap/modal';
 
-import { AlertService, DialogType, MessageSeverity } from '../../services/alert.service';
-import { AppTranslationService } from '../../services/app-translation.service';
-import { AccountService } from '../../services/account.service';
-import { Utilities } from '../../services/utilities';
-import { User } from '../../models/user.model';
-import { Role } from '../../models/role.model';
-import { Permission } from '../../models/permission.model';
-import { UserEdit } from '../../models/user-edit.model';
-import { UserInfoComponent } from './user-info.component';
+import { AlertService, DialogType, MessageSeverity } from '../../../services/alert.service';
+import { AppTranslationService } from '../../../services/app-translation.service';
+import { AccountService } from '../../../services/account.service';
+import { Utilities } from '../../../services/utilities';
+import { User } from '../../../models/user.model';
+import { Role } from '../../../models/role.model';
+import { Permission } from '../../../models/permission.model';
+import { UserEdit } from '../../../models/user-edit.model';
+import { UserInfoComponent } from './../../controls/user-info.component';
 
 
 @Component({
-  selector: 'app-users-management',
-  templateUrl: './users-management.component.html',
-  styleUrls: ['./users-management.component.css']
+  selector: 'app-shipments-management',
+  templateUrl: './shipments-management.component.html',
+  styleUrls: ['./shipments-management.component.css']
 })
-export class UsersManagementComponent implements OnInit, AfterViewInit {
+export class ShipmentsManagementComponent implements OnInit, AfterViewInit {
+
   columns: any[] = [];
   rows: User[] = [];
   rowsCache: User[] = [];
